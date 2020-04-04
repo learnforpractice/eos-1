@@ -55,7 +55,7 @@ namespace eosio {
     validation, ///< the peer sent a block that failed validation
     benign_other, ///< reasons such as a timeout. not fatal but warrant resetting
     fatal_other, ///< a catch-all for errors we don't have discriminated
-    authentication ///< peer failed authenicatio
+    authentication ///< peer failed authentication
   };
 
   constexpr auto reason_str( go_away_reason rsn ) {
